@@ -17867,8 +17867,8 @@ html[data-x-mode]:not(.lt-ie10) .not-animated {
 	margin-top: 40px;
   }
   .rd-nav-link.logo img{
-	max-width: 200px;
-	height: 100px;
+	max-width: 100px;
+	height: 50px;
   }
 @media(max-width :991px ){
 	.slide{
@@ -17943,3 +17943,10 @@ html[data-x-mode]:not(.lt-ie10) .not-animated {
 	color: #fff;
   }
   
+.preloader-logo img{
+	 max-width: 200px;
+	 width: 100%;
+}
+.section h3{
+	color: #000;
+}
