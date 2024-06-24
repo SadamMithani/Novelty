@@ -1272,3 +1272,45 @@
 
 	});
 }());
+
+// Script for making images dynamic
+const products = [
+	{
+		"imageUrl": "photos/Popular-products/Tulsi.jpg",
+	},
+	{
+		"imageUrl": "photos/Popular-products/Tulsi.jpg",
+	},
+	{
+		"imageUrl": "photos/Popular-products/Tulsi.jpg",
+	},
+	{
+		"imageUrl": "photos/Popular-products/Tulsi.jpg",
+	},
+	{
+		"imageUrl": "photos/Popular-products/Tulsi.jpg",
+	},
+	{
+		"imageUrl": "photos/Popular-products/Tulsi.jpg",
+	},
+	{
+		"imageUrl": "photos/Popular-products/Tulsi.jpg",
+	},
+];
+
+// Function to generate product HTML
+function generateProductHTML(product) {
+	return `
+		<div class="col-sm-6 col-lg-3">
+			<article class="thumbnail-light">
+					<img class="thumbnail-light-image" src="${product.imageUrl}" alt="product image" width="270" height="300">
+			</article>
+		</div>
+	`;
+}
+
+// Render products to the DOM
+const gallery = document.getElementById('product-gallery');
+products.forEach(product => {
+	gallery.innerHTML += generateProductHTML(product);
+});

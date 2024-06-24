@@ -5038,7 +5038,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 
 @media (min-width: 768px) {
 	.breadcrumbs-custom {
-		min-height: 23.75vw;
+		min-height: 45.75vw;
 	}
 	.breadcrumbs-custom-inner {
 		padding: 80px 0 30px;
