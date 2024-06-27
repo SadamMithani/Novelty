@@ -11109,6 +11109,11 @@ html.rd-navbar-fixed-linked .page {
 	width: fit-content;
 	border-radius: 8px;
 }
+@media(max-width: 990.98px){
+	.breadcrumbs-custom-main, * + .breadcrumbs-custom-path	{
+		padding: 0;
+	}
+}
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main {
 	position: relative;
 	padding: 16px 0;
